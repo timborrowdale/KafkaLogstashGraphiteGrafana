@@ -20,3 +20,6 @@ Docker compose setup for sending json events to a grafana front end via kafka, l
  - Go back to dashboards and create a new one, you should now be able to use graphite as a source for your data queries.
  - Post some JSON events to your chosen kafka topic and you should see the graphs update.
 
+## To Do
+
+ - automatically register graphite as a data source to grafana
